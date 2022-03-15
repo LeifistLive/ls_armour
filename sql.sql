@@ -1,1 +1,0 @@
-ALTER TABLE `users` ADD COLUMN `armour` tinyint(3) NOT NULL DEFAULT '0';
