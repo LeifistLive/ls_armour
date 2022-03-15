@@ -16,4 +16,4 @@ FiveM | Easy storage DISCORD-ID in the database
 
 [DESCRIPTION]
 
-> This script lets you change the weapon wheel for everyone
+> This script stores the armour of the user in the database!
