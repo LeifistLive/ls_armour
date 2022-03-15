@@ -1,5 +1,5 @@
 # LS_ARMOUR - FIVEM
-FiveM | Easy storage DISCORD-ID in the database
+FiveM | Easy storage armour in the database
 
 
 [REQUIREMENTS]
