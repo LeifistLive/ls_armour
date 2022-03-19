@@ -4,7 +4,6 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
 
-
 AddEventHandler('esx:playerLoaded', function(source)
     local xPlayer = ESX.GetPlayerFromId(source)
     MySQL.Async.fetchAll("SELECT armour FROM users WHERE identifier = @identifier", { 
@@ -17,6 +16,7 @@ AddEventHandler('esx:playerLoaded', function(source)
         end
     end)
 end)
+
 
 
 RegisterServerEvent('ls_armour:refresharmour')
