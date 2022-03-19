@@ -16,8 +16,6 @@ AddEventHandler('ls_armour:setarmour', function(armour)
 end)
 
 
-
-
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
